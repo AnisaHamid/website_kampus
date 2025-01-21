@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<script>
+    function tampilkanPemberitahuan() {
+        alert("Pendaftaran berhasil dikirim, Terimakasih....");
+        resetForm();
+    }
+
+    function resetForm() {
+        const form = document.querySelector('form'); // Pilih form
+        form.reset(); // Reset semua field di form
+    }
+</script>
+<body class="bg-gray-800 flex items-center justify-center min-h-screen">
+    <div class="contact-form bg-gray-700 bg-opacity-80 text-white p-6 rounded-lg shadow-lg max-w-md w-full">
+        <p class="text-center text-xl border-b-2 border-white mb-4 pb-2">Data Pribadi</p>
+        <form action="#" method="POST" class="space-y-4">
+            <div>
+                <label for="name" class="block text-sm font-medium mb-1">Nama Lengkap</label>
+                <input 
+                    type="text" 
+                    id="name" 
+                    name="name" 
+                    placeholder="Siapa nama lengkap Anda?" 
+                    required 
+                    class="w-full px-4 py-2 bg-gray-800 border border-gray-600 rounded focus:outline-none focus:ring-2 focus:ring-blue-500">
+            </div>
+            <div>
+                <label for="name" class="block text-sm font-medium mb-1">NIK</label>
+                <input 
+                    type="text" 
+                    id="name" 
+                    name="name" 
+                    placeholder="3573***********" 
+                    required 
+                    class="w-full px-4 py-2 bg-gray-800 border border-gray-600 rounded focus:outline-none focus:ring-2 focus:ring-blue-500">
+            </div>
+            <div>
+                <label for="name" class="block text-sm font-medium mb-1">Tempat Tanggal Lahir</label>
+                <input 
+                    type="text" 
+                    id="name" 
+                    name="name" 
+                    placeholder="Jakarta, 02 Januari 2004" 
+                    required 
+                    class="w-full px-4 py-2 bg-gray-800 border border-gray-600 rounded focus:outline-none focus:ring-2 focus:ring-blue-500">
+            </div>
+            <div>
+                <label for="name" class="block text-sm font-medium mb-1">Alamat</label>
+                <input 
+                    type="text" 
+                    id="name" 
+                    name="name" 
+                    placeholder="Kampung Kediri, Cilegon" 
+                    required 
+                    class="w-full px-4 py-2 bg-gray-800 border border-gray-600 rounded focus:outline-none focus:ring-2 focus:ring-blue-500">
+            </div>
+            <div>
+                <label for="name" class="block text-sm font-medium mb-1">Nomor Telephone</label>
+                <input 
+                    type="text" 
+                    id="name" 
+                    name="name" 
+                    placeholder="08********" 
+                    required 
+                    class="w-full px-4 py-2 bg-gray-800 border border-gray-600 rounded focus:outline-none focus:ring-2 focus:ring-blue-500">
+            </div>
+
+            <div>
+                <label for="email" class="block text-sm font-medium mb-1">Email</label>
+                <input 
+                    type="email" 
+                    id="email" 
+                    name="email" 
+                    placeholder="contoh@gmail.com" 
+                    required 
+                    class="w-full px-4 py-2 bg-gray-800 border border-gray-600 rounded focus:outline-none focus:ring-2 focus:ring-blue-500">
+            </div>
+
+           
+        <p class="text-center text-xl border-b-2 border-white mb-4 pb-2 pt-2">Sekolah Asal</p>
+        <form action="#" method="POST" class="space-y-4">
+            <div>
+                <label for="name" class="block text-sm font-medium mb-1">Nama Sekolah</label>
+                <input 
+                    type="text" 
+                    id="name" 
+                    name="name" 
+                    placeholder="SMKN 3 Cilegon" 
+                    required 
+                    class="w-full px-4 py-2 bg-gray-800 border border-gray-600 rounded focus:outline-none focus:ring-2 focus:ring-blue-500">
+            </div>
+            <div>
+                <label for="name" class="block text-sm font-medium mb-1">Jurusan</label>
+                <input 
+                    type="text" 
+                    id="name" 
+                    name="name" 
+                    placeholder="Akuntansi" 
+                    required 
+                    class="w-full px-4 py-2 bg-gray-800 border border-gray-600 rounded focus:outline-none focus:ring-2 focus:ring-blue-500">
+            </div>
+            <div>
+                <label for="name" class="block text-sm font-medium mb-1">Tahun Kelulusan</label>
+                <input 
+                    type="text" 
+                    id="name" 
+                    name="name" 
+                    placeholder="2023" 
+                    required 
+                    class="w-full px-4 py-2 bg-gray-800 border border-gray-600 rounded focus:outline-none focus:ring-2 focus:ring-blue-500">
+            </div>
+        <p class="text-center text-xl border-b-2 border-white mb-4 pb-2 pt-2">Pilihan Jurusan</p>
+        <form action="#" method="POST" class="space-y-4">
+            <div>
+                <label for="name" class="block text-sm font-medium mb-1">Tanggal Daftar</label>
+                <input 
+                type="text" 
+                id="name" 
+                name="name" 
+                placeholder="hh/bb/tt" 
+                required 
+                class="w-full px-4 py-2 bg-gray-800 border border-gray-600 rounded focus:outline-none focus:ring-2 focus:ring-blue-500">
+            </div>
+            <div>
+                <label for="name" class="block text-sm font-medium mb-1">Jurusan</label>
+                <input 
+                    type="text" 
+                    id="name" 
+                    name="name" 
+                    placeholder="SI/TI/KA/MI" 
+                    required 
+                    class="w-full px-4 py-2 bg-gray-800 border border-gray-600 rounded focus:outline-none focus:ring-2 focus:ring-blue-500">
+            </div>
+            <div>
+                <label for="name" class="block text-sm font-medium mb-1">Jalur Pendaftaran</label>
+                <input 
+                    type="text" 
+                    id="name" 
+                    name="name" 
+                    placeholder="Mandiri/Beasiswa" 
+                    required 
+                    class="w-full px-4 py-2 bg-gray-800 border border-gray-600 rounded focus:outline-none focus:ring-2 focus:ring-blue-500">
+            </div>
+           
+           
+
+            <button 
+                type="button" 
+                onclick="tampilkanPemberitahuan()"
+                class="w-full py-2 px-4 bg-blue-600 hover:bg-blue-700 rounded text-white font-semibold focus:outline-none focus:ring-2 focus:ring-blue-500">
+                Kirim
+            </button>
+        </form>
+    </div>
+</body>
+</html>
